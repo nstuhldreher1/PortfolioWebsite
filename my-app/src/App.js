@@ -1,5 +1,5 @@
 import PortfolioHeader from './components/PortfolioHeader';
-
+import AboutMe from './components/AboutMe';
 function App() {
   return (
     <div className="App">
@@ -7,6 +7,7 @@ function App() {
         
       </header>
       <PortfolioHeader/>
+      <AboutMe/>
     </div>
   );
 }

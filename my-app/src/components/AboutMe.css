@@ -1,0 +1,25 @@
+#body{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#aboutDescription{
+    color: white;
+    font-size: 15px;
+    width: 530px;
+    line-height: 25px;
+    font-family: monospace;
+}
+#aboutTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#aboutMe{
+    width: 100%;
+    background-color: black;
+    
+}
+body {
+    margin: 0;
+}
