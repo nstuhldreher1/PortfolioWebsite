@@ -1,5 +1,6 @@
 import PortfolioHeader from './components/PortfolioHeader';
 import AboutMe from './components/AboutMe';
+import Orbit from './components/Orbit';
 function App() {
   return (
     <div className="App">
@@ -8,6 +9,7 @@ function App() {
       </header>
       <PortfolioHeader/>
       <AboutMe/>
+      <Orbit/>
     </div>
   );
 }
