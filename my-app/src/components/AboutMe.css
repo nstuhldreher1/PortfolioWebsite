@@ -18,7 +18,30 @@
 #aboutMe{
     width: 100%;
     background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 body {
     margin: 0;
+}
+
+
+
+#contact-body{
+    padding-left: 30px;
+}
+
+#resume{
+    color:white;
+    font-family: arial;
+}
+
+#links{
+    display: grid;
+    row-gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    
 }
