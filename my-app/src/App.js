@@ -8,8 +8,10 @@ function App() {
       <header className="App-header">
         
       </header>
-        <PortfolioHeader/>
-        <AboutMe/>
+        <div id="App">
+          <PortfolioHeader/>
+          <AboutMe/>
+        </div>
          
           
           
