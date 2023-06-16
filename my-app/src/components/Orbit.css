@@ -10,10 +10,12 @@
 /* ---------- Container for the orbiting circles animation ---------- */
 #circle-orbit-container {
     position: relative;
+    mix-blend-mode: difference;
     top: 25px;
     left: 25px;
     height: 300px;
     width: 300px;
+    
   }
   
   /* ---------- Inner orbit - This is the circles closest to the central point ---------- */
@@ -27,6 +29,7 @@
     border-radius: 100%;
     -webkit-animation: spin-right 10s linear infinite;
     animation: spin-right 10s linear infinite;
+    
   }
   
   /* ---------- Repeating styles for the inner orbiting circles ---------- */

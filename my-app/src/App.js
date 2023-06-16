@@ -1,15 +1,20 @@
 import PortfolioHeader from './components/PortfolioHeader';
 import AboutMe from './components/AboutMe';
-import Orbit from './components/Orbit';
+
+import './App.css';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         
       </header>
-      <PortfolioHeader/>
-      <AboutMe/>
-      <Orbit/>
+        <PortfolioHeader/>
+        <AboutMe/>
+         
+          
+          
+          
+        
     </div>
   );
 }
