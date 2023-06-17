@@ -2,7 +2,7 @@ import './Button.css';
 
 function Button(props){
     return(
-        <button class="btn-92">{props.name}</button>
+        <button class="btn-56">{props.name}</button>
     );
 }
 

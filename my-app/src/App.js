@@ -11,6 +11,7 @@ function App() {
         <div id="App">
           <PortfolioHeader/>
           <AboutMe/>
+          
         </div>
          
           

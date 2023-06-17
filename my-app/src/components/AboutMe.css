@@ -39,10 +39,12 @@ body {
 
 #links{
     display: grid;
-    row-gap: 15px;
+    row-gap: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+
     
 }
 
