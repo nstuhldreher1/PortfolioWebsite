@@ -1,10 +1,5 @@
 
 
-.orbit{
-    position: absolute;
-    top: 20px;
-    right: 200px;
-}
 .blend{
     mix-blend-mode: difference;
 }

@@ -1,5 +1,6 @@
 import PortfolioHeader from './components/PortfolioHeader';
 import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
 
 import './App.css';
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <div id="App">
           <PortfolioHeader/>
           <AboutMe/>
-          
+          <Projects/>
         </div>
          
           

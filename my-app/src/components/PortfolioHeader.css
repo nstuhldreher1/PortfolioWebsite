@@ -19,3 +19,12 @@
 .aboutMe{
     background-color: black;
 }
+
+#portheader{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#orbit{
+    padding-left: 110px;
+}
