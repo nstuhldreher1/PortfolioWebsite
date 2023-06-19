@@ -1,6 +1,8 @@
+import './Skill.css';
+
 function Skill(prop){
     return(
-        <p>{prop.name}</p>
+        <p id="name">{prop.name}</p>
     );
 }
 
