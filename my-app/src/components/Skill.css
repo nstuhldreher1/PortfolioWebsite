@@ -1,4 +1,10 @@
+
 #name{
     font-family: monospace;
-    font-size: 15px;
+    font-size: 20px;
+    padding-top: 8px;
+}
+#images{
+    float: left;
+    height: 24px;
 }
