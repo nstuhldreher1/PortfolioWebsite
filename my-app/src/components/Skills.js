@@ -20,6 +20,7 @@ import photoshopLogo from './adobephotoshop-color.svg';
 import indesignLogo from './adobeindesign-color.svg';
 import illustratorLogo from './adobeillustrator-color.svg';
 import figmaLogo from './figma-color.svg';
+import gitLogo from './git-color.svg';
 
 let blocks = [
     {
@@ -32,7 +33,7 @@ let blocks = [
     },
     {
         name: "Additional Software",
-        skills: [[excelLogo, "Excel"], [ppLogo, "Powerpoint"], [photoshopLogo, "Photoshop"], [indesignLogo, "Indesign"], [illustratorLogo, "Illustrator"], [figmaLogo, "Figma"]]
+        skills: [[excelLogo, "Excel"], [ppLogo, "Powerpoint"], [photoshopLogo, "Photoshop"], [indesignLogo, "Indesign"], [illustratorLogo, "Illustrator"], [figmaLogo, "Figma"], [gitLogo, "Git"]]
     }
 ];
 function Skills(){
