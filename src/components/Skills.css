@@ -1,8 +1,9 @@
 
 #skills{
-    padding-top: 100px;
+    padding-top: 33vh;
     padding-bottom: 40px;
     padding-left: 10vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    height: 80vh;
 }
