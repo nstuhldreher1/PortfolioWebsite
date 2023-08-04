@@ -5,7 +5,7 @@ import './App.css';
 
 const router = createBrowserRouter([
   {path: '/', element: <HomePage/>},
-  {path: '/project/:projectID', element: <ProjectPage/>}
+  {path: '/project/:name', element: <ProjectPage/>}
 ]);
 
 
