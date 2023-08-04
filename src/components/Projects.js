@@ -1,19 +1,27 @@
 import ProjectCard from './ProjectCard';
 import './Projects.css';
-import TrollFace from './Trollface.png';
-
+import GameReview from './GameReview.svg';
+import ContactManager from './ContactManager.svg';
+import PortfolioWebsite from './PortfolioWebsite.svg';
 const projectList = [
     {
-        name : "Project",
-        image : TrollFace
+        name : "Game Review",
+        image : GameReview
+    },
+    {
+        name: "Contact Manager",
+        image: ContactManager
+    },
+    {
+        name:"Portfolio Website",
+        image: PortfolioWebsite
     }
 ]
 
 function Projects(){
     return(
         <div id="projects">
-            <h1 id="project-title">Projects</h1>
-            <div>
+            <div id="projectList">
                 {
                     projectList.map(project => {
                         return(

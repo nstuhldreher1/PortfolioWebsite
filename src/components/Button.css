@@ -15,7 +15,7 @@
   color: #fff;
   cursor: pointer;
   font-family: monospace;
-  font-size: 100%;
+  font-size: 16px;
   line-height: 1.5;
   margin: 0;
   -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
@@ -44,7 +44,6 @@
   overflow: hidden;
   padding: 1.2rem 3rem;
   position: relative;
-  text-transform: uppercase;
 }
 .btn-56:hover {
   -webkit-animation: pulse 0.5s;
