@@ -1,28 +1,17 @@
-import PortfolioHeader from './components/PortfolioHeader';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-
+import HomePage from './pages/HomePage.js';
+import ProjectPage from './pages/ProjectPage.js';
+import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './App.css';
+
+const router = createBrowserRouter([
+  {path: '/', element: <HomePage/>},
+  {path: '/project/:projectID', element: <ProjectPage/>}
+]);
+
+
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-        <div id="App">
-          <PortfolioHeader/>
-          <AboutMe/>
-          <Skills/>
-          <Projects/>
-        </div>
-         
-          
-          
-          
-        
-    </div>
-  );
+  return <RouterProvider router={router}/>;
 }
 
 export default App;

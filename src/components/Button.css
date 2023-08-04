@@ -37,7 +37,8 @@
 .btn-56 {
   border: 1px solid;
   border-radius: 999px;
-  box-sizing: border-box;
+  width: 33vw;
+  height: 10vh;
   display: block;
   font-weight: 900;
   -webkit-mask-image: none;
