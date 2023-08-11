@@ -36,3 +36,8 @@ li{
     font-family: monospace;
     font-size: 16px;
 }
+
+.feature-image{
+    height: auto;
+    width: 50vw;
+}
