@@ -9,6 +9,9 @@ import reactLogo from '../components/react-color.svg';
 import mongoLogo from '../components/mongodb-color.svg';
 import expressLogo from '../components/express-color.svg';
 import nodeLogo from '../components/nodedotjs-color.svg';
+import jsLogo from '../components/javascript_24x24.png';
+import htmlLogo from '../components/html_24x24.png';
+import cssLogo from '../components/css_24x24.png';
 let projects = [
     {
         name: "Game Review",
@@ -29,6 +32,18 @@ let projects = [
             {
                 tech: "NodeJS",
                 image: nodeLogo
+            },
+            {
+                tech: "JavaScript",
+                image: jsLogo
+            },
+            {
+                tech: "HTML",
+                image: htmlLogo
+            },
+            {
+                tech: "CSS",
+                image: cssLogo
             }
         ],
         overview: [
@@ -94,7 +109,7 @@ function ProjectPage(){
             <p class="project-section">Introduction</p>
             <p id="introduction">{projects[name].introduction}</p>
             <hr/>
-            <p class="project-section">Technologies Used</p>
+            <p class="project-section">Technologies/Languages Used</p>
             <div id= "project-tech">
             {
                 projects[name].technologies.map(tech =>{
