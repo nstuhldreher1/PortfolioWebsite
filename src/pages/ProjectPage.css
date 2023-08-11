@@ -1,0 +1,38 @@
+#project-page{
+   width: 50vw;
+   padding-left: 25vw;
+   line-height: 30px;
+}
+
+#project-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.project-section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#introduction{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.feature-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.feature-description{
+    font-family: monospace;
+    font-size: 16px;
+}
