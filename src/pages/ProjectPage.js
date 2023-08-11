@@ -4,11 +4,33 @@ import gamepage from './gamepage.png';
 import login from './login.png';
 import gamecreation from './gamecreation.png';
 import userprofile from './userprofile.png';
-
+import gamesearch from './gamesearch.png';
+import reactLogo from '../components/react-color.svg';
+import mongoLogo from '../components/mongodb-color.svg';
+import expressLogo from '../components/express-color.svg';
+import nodeLogo from '../components/nodedotjs-color.svg';
 let projects = [
     {
         name: "Game Review",
         introduction:"In the dynamic world of video games, where every title holds a unique story and experience, there's a constant desire to share opinions, insights, and recommendations with fellow gamers. Introducing GameReview, a web and mobile application designed exclusively for gaming aficionados. Whether you're a casual player, a dedicated e-sports competitor, or simply someone who appreciates interactive storytelling, GameReview is your one-stop platform for creating, exploring, and engaging with video game reviews.",
+        technologies: [
+            {
+                tech: "React",
+                image: reactLogo
+            },
+            {
+                tech: "MongoDB",
+                image: mongoLogo
+            },
+            {
+                tech: "ExpressJS",
+                image: expressLogo
+            },
+            {
+                tech: "NodeJS",
+                image: nodeLogo
+            }
+        ],
         overview: [
             {
                 feature: "User Registration and Authentication",
@@ -35,7 +57,18 @@ let projects = [
                 feature: "Game Page",
                 description: "Every game has its own page including a game cover, title, description, average rating, and a list of reviews users have made",
                 image: gamepage
+            },
+            {
+                feature: "Delete and Edit",
+                description: "Users can delete and edit reviews they have made.",
+                image: null
+            },
+            {
+                feature: "Search and Filter",
+                description: "Users can search for specific games and users, and from there they can navigate to user profiles and game pages.",
+                image: gamesearch
             }
+            
         ]
     },
     {   
@@ -61,6 +94,21 @@ function ProjectPage(){
             <p class="project-section">Introduction</p>
             <p id="introduction">{projects[name].introduction}</p>
             <hr/>
+            <p class="project-section">Technologies Used</p>
+            <div id= "project-tech">
+            {
+                projects[name].technologies.map(tech =>{
+                        return(
+                            <div>
+                                {tech.image === null ? <div></div> : <img className = "tech-image" src={tech.image} alt="" onerror="this.style.display='none'"></img>}
+                                <p className="tech-name">{tech.tech}</p>
+                                
+                            </div>
+                        );
+                })
+            }
+            </div>
+            <hr/>
             <p class="project-section">Project Overview</p>
             <ul>
             {
@@ -70,11 +118,11 @@ function ProjectPage(){
                             <li>
                                 <div className='feature-title'>{feature.feature}</div>
                                 <div className ='feature-description'>{feature.description}</div>
-                            
+                                {feature.image === null ? <div></div> : <div><img className = "feature-image" src={feature.image} alt="" onerror="this.style.display='none'"></img><br/></div>}
                                 <br/>
                             </li>
                                 
-                            {feature.image === null ? <div></div> : <img className = "feature-image" src={feature.image} alt="" onerror="this.style.display='none'"></img>}
+                            
                                 
                             
                         </div>
@@ -82,8 +130,7 @@ function ProjectPage(){
                 })
             }
             </ul>
-            <hr/>
-            <p class="project-section">Technologies Used</p>
+            
 
 
         </div>

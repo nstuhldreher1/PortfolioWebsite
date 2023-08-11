@@ -41,3 +41,19 @@ li{
     height: auto;
     width: 50vw;
 }
+
+.tech-image{
+    height: 24px;
+    width: 24px;
+    float: left;
+    padding-right: 8px;
+}
+
+.tech-name{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#project-tech{
+    line-height: 25px;
+}
