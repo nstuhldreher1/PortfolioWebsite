@@ -45,8 +45,8 @@ li{
 .tech-image{
     height: 24px;
     width: 24px;
-    float: left;
     padding-right: 8px;
+    float:left;
 }
 
 .tech-name{
@@ -55,5 +55,32 @@ li{
 }
 
 #project-tech{
-    line-height: 25px;
+   display: grid;
+   height: 20vh;
+   grid-auto-columns: 200px;
+   grid-template-rows: 6vh 6vh 6vh 6vh; 
+   grid-auto-flow: column;
+   padding-bottom: 70px;
+
+}
+
+#tech-name{
+    display: inline-block;
+}
+
+#technology-section{
+    line-height: 22px;
+}
+
+#home-button{
+    color: gray;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+}
+
+#project-header{
+    display: grid;
+    grid-template-columns: 80% 20%;
 }

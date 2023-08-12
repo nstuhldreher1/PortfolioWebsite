@@ -1,5 +1,6 @@
 import './ProjectPage.css';
 import { useParams } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import gamepage from './gamepage.png';
 import login from './login.png';
 import gamecreation from './gamecreation.png';
@@ -104,24 +105,25 @@ function ProjectPage(){
 
     return(
         <div id="project-page">
-            <p id="project-title">{projects[name].name}</p>
+            <div id="project-header"><p id="project-title">{projects[name].name}</p><Link to ='/' style={{ textDecoration: 'none' }}><p id="home-button">&lt;  Back to Home</p></Link></div>
             <hr/>
             <p class="project-section">Introduction</p>
             <p id="introduction">{projects[name].introduction}</p>
             <hr/>
-            <p class="project-section">Technologies/Languages Used</p>
-            <div id= "project-tech">
-            {
-                projects[name].technologies.map(tech =>{
-                        return(
-                            <div>
-                                {tech.image === null ? <div></div> : <img className = "tech-image" src={tech.image} alt="" onerror="this.style.display='none'"></img>}
-                                <p className="tech-name">{tech.tech}</p>
-                                
-                            </div>
-                        );
-                })
-            }
+            <div id="technology-section">
+                <p className="project-section">Technologies/Languages Used</p>
+                <div id= "project-tech">
+                {
+                    projects[name].technologies.map(tech =>{
+                            return(
+                                <p className="tech-name">
+                                    {tech.image === null ? <div></div> : <img className = "tech-image" src={tech.image} alt="" onerror="this.style.display='none'"></img>}
+                                    {tech.tech}
+                                </p>
+                            );
+                    })
+                }
+                </div>
             </div>
             <hr/>
             <p class="project-section">Project Overview</p>
