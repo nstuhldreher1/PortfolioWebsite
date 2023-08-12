@@ -109,7 +109,7 @@ function ProjectPage(){
             <div id="project-header"><p id="project-title">{projects[name].name}</p><Link to ='/' style={{ textDecoration: 'none' }}><p id="home-button">&lt;  Back to home</p></Link></div>
 
             <hr/>
-            <div id="intro-header"><p class="project-section">Introduction</p><a href={projects[name].link} id="github-link">Github Link</a></div>
+            <div id="intro-header"><p class="project-section">Introduction</p><a href={projects[name].link} id="github-link" target="_blank" rel="noreferrer noopener">Github Link</a></div>
             <p id="introduction">{projects[name].introduction}</p>
             <hr/>
             <div id="technology-section">
