@@ -84,3 +84,16 @@ li{
     display: grid;
     grid-template-columns: 80% 20%;
 }
+
+#intro-header{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+#github-link{
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: gray;
+}

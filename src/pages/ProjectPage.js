@@ -17,6 +17,7 @@ let projects = [
     {
         name: "Game Review",
         introduction:"In the dynamic world of video games, where every title holds a unique story and experience, there's a constant desire to share opinions, insights, and recommendations with fellow gamers. Introducing GameReview, a web and mobile application designed exclusively for gaming aficionados. Whether you're a casual player, a dedicated e-sports competitor, or simply someone who appreciates interactive storytelling, GameReview is your one-stop platform for creating, exploring, and engaging with video game reviews.",
+        link:"https://github.com/nstuhldreher1/GameReview",
         technologies: [
             {
                 tech: "React",
@@ -105,9 +106,10 @@ function ProjectPage(){
 
     return(
         <div id="project-page">
-            <div id="project-header"><p id="project-title">{projects[name].name}</p><Link to ='/' style={{ textDecoration: 'none' }}><p id="home-button">&lt;  Back to Home</p></Link></div>
+            <div id="project-header"><p id="project-title">{projects[name].name}</p><Link to ='/' style={{ textDecoration: 'none' }}><p id="home-button">&lt;  Back to home</p></Link></div>
+
             <hr/>
-            <p class="project-section">Introduction</p>
+            <div id="intro-header"><p class="project-section">Introduction</p><a href={projects[name].link} id="github-link">Github Link</a></div>
             <p id="introduction">{projects[name].introduction}</p>
             <hr/>
             <div id="technology-section">
