@@ -2,7 +2,7 @@ import ProjectCard from './ProjectCard';
 import './Projects.css';
 import GameReview from './GameReview.svg';
 import ContactManager from './ContactManager.svg';
-import PortfolioWebsite from './PortfolioWebsite.svg';
+import PortfolioWebsite from './Contact.svg';
 import {Link} from 'react-router-dom';
 
 const projectList = [
@@ -20,7 +20,11 @@ const projectList = [
         name:"Portfolio Website",
         image: PortfolioWebsite,
         id: 2
+    },
+    {
+        
     }
+    
 ]
 
 function Projects(){
