@@ -21,7 +21,7 @@ function AboutMe(){
         <section id = "aboutMe">
             <div id="body" class="inline-block">
                 <h1 id="aboutTitle">About Me</h1>
-                <p id = "aboutDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p id = "aboutDescription">I'm currently a computer science student at the University of Central Florida. Here I've gained a variety of skills some including machine learning, database design, web development, mobile app development, and a strong foundation of data structures and algorithms. I've also worked on a variety of projects in my free time from websites to rockets where I've gained more practical knowledge. When I'm not in school or working on projects I enjoy being with friends, watching movies, and playing guitar.  </p>
             </div>
             
             <div id="links" class="inline-block">

@@ -13,6 +13,9 @@ import nodeLogo from '../components/nodedotjs-color.svg';
 import jsLogo from '../components/javascript_24x24.png';
 import htmlLogo from '../components/html_24x24.png';
 import cssLogo from '../components/css_24x24.png';
+import mysqlLogo from '../components/mysql-color.svg';
+import phpLogo from '../components/php_24x24.png';
+import portfolio from './portfolio.png';
 let projects = [
     {
         name: "Game Review",
@@ -90,14 +93,102 @@ let projects = [
     },
     {   
         name: "Contact Manager",
-        introduction: "A contact manager web application",
-        overview: ""
+        introduction: "Welcome to Contact Manager a web application for effortlessly managing your contacts with utmost convenience and efficiency. Whether you're a business professional, a social butterfly, or someone who simply values staying connected, Contact Manager is designed to streamline your contact management experience.",
+        link: "https://github.com/miguelperson/COP4331Project1",
+        technologies:[
+            {
+                tech: "JavaScript",
+                image: jsLogo
+            },
+            {
+                tech: "HTML",
+                image: htmlLogo
+            },
+            {
+                tech: "CSS",
+                image: cssLogo
+            },
+            {
+                tech: "PHP",
+                image: phpLogo
+            },
+            {
+                tech: "MySQL",
+                image: mysqlLogo
+            }
+        ],
+        overview: [
+            {
+                feature: "User Registration and Authentication",
+                description: "Users can signup by creating a username and password. Once they've created an account they will have the ability to login",
+                image: null
+            },
+            {
+                feature: "Create and Edit Contacts",
+                description: "Users can create new contacts as well as update previously saved contacts.",
+                image: null
+            },
+            {
+                feature: "Delete Contacts",
+                description: "Users can delete contacts from their contact list where they will then be prompted to confirm deletion.",
+                image: null
+            },
+            {
+                feature: "Search and Filtering",
+                description: "Users can search for contacts in their contact book by name.",
+                image: null
+            },
+            {
+                feature: "User Friendly Dashboard",
+                description: "The dashboard provides an overview of the user's contact list and relevant actions. Icons, buttons, and labels are designed to be intuitive and easy to understand."
+            }
+        ]
 
     },
     {
         name: "Portfolio Website",
-        introduction: "My portfolio website",
-        overview:""
+        introduction: "This portfolio is a curated showcase of my journey through the landscape of software development, highlighting my skills, projects, and accomplishments.",
+        link: "https://github.com/nstuhldreher1/PortfolioWebsite",
+        technologies: [
+            {
+                tech: "React",
+                image: reactLogo
+            },
+            {
+                tech: "NodeJS",
+                image: nodeLogo
+            },
+            {
+                tech: "JavaScript",
+                image: jsLogo
+            },
+            {
+                tech: "HTML",
+                image: htmlLogo
+            },
+            {
+                tech: "CSS",
+                image: cssLogo
+            }
+
+        ],
+        overview:[
+            {
+                feature: "Project Showcase",
+                description: "A showcase of all the projects I've worked on that gives an introduction, shows the technologies used, and gives an overview of the project. Provides a link to the code on github.",
+                image: null
+            },
+            {
+                feature: "User Friendly Dashboard",
+                description: "Easy to navigate the website with a user friendly user interface.",
+                image: portfolio
+            },
+            {
+                feature: "Skills and Expertise",
+                description: "Showcases languages and software that I am proficient in.",
+                image: null
+            }
+        ]
     }
 ];
 function ProjectPage(){
