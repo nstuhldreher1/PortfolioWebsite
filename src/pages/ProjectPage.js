@@ -16,6 +16,7 @@ import cssLogo from '../components/css_24x24.png';
 import mysqlLogo from '../components/mysql-color.svg';
 import phpLogo from '../components/php_24x24.png';
 import portfolio from './portfolio.png';
+import cppLogo from '../components/cpp_24x24.png';
 let projects = [
     {
         name: "Game Review",
@@ -189,6 +190,51 @@ let projects = [
                 image: null
             }
         ]
+    },
+
+    {
+        name:"GLEE",
+        introduction: "A ChipSat associated with radio club for the Great Lunar Expedition for Everyone. GLEE is a mission involving many teams from across the globe. As one of those teams we developed a LunaSat which will be deployed to the moon in 2023. A technology initially developed by a team at Cornell University to drastically cutdown the costs of spaceflight and exploration. The LunaSat will collect data from the moon with a variety of different sensors including temperature, magnetic field, and inertial measurements. That data will then be sent back to earth.",
+        link: "https://github.com/nstuhldreher1/GLEE-UCF",
+        technologies:[
+            {
+                tech:"C++",
+                image: cppLogo
+            }
+        ],
+        overview:[
+            {
+                feature: "Temperature Sensor",
+                description: "A sensor to measure temperature on the moons surface.",
+                image: null
+            },
+            {
+                feature: "Accelerometer",
+                description: "An accelerometer to measure motion or potential moonquakes on the moons surface",
+                image: null
+            },
+            {
+                feature: "Capacitive Sensor",
+                description: "A capacitive sensor to measure the dielectric constant of lunar regolith.",
+                image: null
+            },
+            {
+                feature: "Thermopile",
+                description: "A thermopile to measure temperature with infared.",
+                image: null
+            },
+            {
+                feature: "Magnetometer",
+                description: "A magnetometer to measure magnetic field on the moons surface.",
+                image: null
+            },
+            {
+                feature: "Radio Frequency System",
+                description: "A radio frequency system that allows the LunaSat to send data remotely",
+                image: null
+            }
+        ]
+
     }
 ];
 function ProjectPage(){

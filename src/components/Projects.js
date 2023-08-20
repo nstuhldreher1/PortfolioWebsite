@@ -3,7 +3,10 @@ import './Projects.css';
 import GameReview from './GameReview.svg';
 import ContactManager from './ContactManager.svg';
 import PortfolioWebsite from './Contact.svg';
+import GLEE from './glee.svg';
+import compiler from './compiler.svg';
 import {Link} from 'react-router-dom';
+import rocket from './rocket.svg';
 
 const projectList = [
     {
@@ -22,7 +25,19 @@ const projectList = [
         id: 2
     },
     {
-        
+        name:"GLEE",
+        image: GLEE,
+        id: 3
+    },
+    {
+        name: "PL/0 Compiler",
+        image: compiler,
+        id: 4
+    },
+    {
+        name: "Acanthis Rocket",
+        image: rocket,
+        id: 5
     }
     
 ]
