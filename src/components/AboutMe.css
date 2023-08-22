@@ -21,6 +21,7 @@
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px;
     
 }
 body {
@@ -33,10 +34,6 @@ body {
     padding-left: 30px;
 }
 
-#resume{
-    color:white;
-    font-family: arial;
-}
 
 #links{
     display: grid;
@@ -45,6 +42,4 @@ body {
     padding-bottom: 30px;
     padding-right: 150px;
     padding-left: 150px;
-
-    
 }
