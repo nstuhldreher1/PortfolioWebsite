@@ -1,6 +1,7 @@
 import './ProjectPage.css';
 import { useParams } from 'react-router-dom';
 import {Link} from 'react-router-dom';
+import { useLayoutEffect } from 'react';
 import gamepage from './gamepage.png';
 import login from './login.png';
 import gamecreation from './gamecreation.png';
@@ -17,6 +18,7 @@ import mysqlLogo from '../components/mysql-color.svg';
 import phpLogo from '../components/php_24x24.png';
 import portfolio from './portfolio.png';
 import cppLogo from '../components/cpp_24x24.png';
+import cLogo from '../components/c_24x24.png';
 let projects = [
     {
         name: "Game Review",
@@ -235,9 +237,68 @@ let projects = [
             }
         ]
 
+    },
+    {
+        name: "PL/0 Compiler",
+        introduction: "I collaborated with an academic colleague to create a PL/0 compiler. A software that takes in PL/0 source code and creates instructions readable by a virtual machine. The project included a virtual machine, lexical analyzer, parser, and intermediate code generator.",
+        link: "https://github.com/nstuhldreher1/PL0-Compiler",
+        technologies: [
+            {            
+                tech: "C",
+                image: cLogo
+            }
+        ],
+        overview: [
+            {
+                feature: "Virtual Machine",
+                description: "The project includes a virtual machine which executes instructions created by the intermediate code generator.",
+                image: null
+            },
+            {
+                feature: "Lexical Analyzer",
+                description: "The project includes a lexical analyzer which reads in the source code written in PL/0, identify some errors, and produce, as output, a lexeme table and token list for the program.",
+                image: null
+            },
+            {
+                feature: "Parser",
+                description: "The project includes a parser that reads in the output created by the lexical analyzer to find additional errors and indicate the error present",
+                image: null
+            },
+            {
+                feature: "Intermediate Code Generator",
+                description: "The project includes an intermediate code generator that uses tokens created from the lexical analyzer to create instructions for the virtual machine"
+            }
+        ]
+    },
+    {
+        name: "Acanthis Rocket",
+        introduction: "I worked on the payloads team for on a rocket associated with Knights Experimental Rocketry. Onboard, the rocket needed to be programmed to take in a variety of data. Altitude and velocity during the launch was recorded.",
+        link: "",
+        technologies: [
+            {
+                tech: "C++",
+                image: cppLogo
+            }
+        ],
+        overview: [
+            {
+                feature: "Barometer",
+                description: "A barometer was used to measure the altitude of the rocket throughout the launch",
+                image: null
+            },
+            {
+                feature: "Accelerometer",
+                description: "An accelerometer was used to measure the velocity of the rocket throughout the launch",
+                image: null
+            }
+        ]
     }
 ];
 function ProjectPage(){
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
 
     const {name} = useParams();
 
