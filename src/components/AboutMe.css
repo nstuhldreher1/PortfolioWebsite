@@ -1,11 +1,11 @@
 #body{
     padding-left: 40px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 #aboutDescription{
     color: white;
-    font-size: 15px;
+    font-size: 1.1vw;
     width: 530px;
     line-height: 25px;
     font-family: monospace;
@@ -13,6 +13,7 @@
 #aboutTitle{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    font-size: 1.8vw;
 }
 
 #aboutMe{
@@ -22,6 +23,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 30px;
+    align-items: center;
     
 }
 body {
