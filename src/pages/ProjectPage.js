@@ -272,7 +272,7 @@ let projects = [
     },
     {
         name: "Acanthis Rocket",
-        introduction: "I worked on the payloads team for on a rocket associated with Knights Experimental Rocketry. Onboard, the rocket needed to be programmed to take in a variety of data. Altitude and velocity during the launch was recorded.",
+        introduction: "I worked on the payloads team for a rocket associated with Knights Experimental Rocketry. Onboard, the rocket needed to be programmed to take in a variety of data. Altitude and velocity during the launch were recorded.",
         link: "",
         technologies: [
             {
