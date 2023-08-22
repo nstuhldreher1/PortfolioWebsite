@@ -38,10 +38,12 @@ let blocks = [
 ];
 function Skills(){
     return(
-        <div id="skills">
-            <SkillBlock name = {blocks[0].name} skills = {blocks[0].skills}></SkillBlock>
-            <SkillBlock name = {blocks[1].name} skills = {blocks[1].skills}></SkillBlock> 
-            <SkillBlock name = {blocks[2].name} skills = {blocks[2].skills}></SkillBlock>
+        <div id="skill-container">
+            <div id="skills">
+                <SkillBlock name = {blocks[0].name} skills = {blocks[0].skills}></SkillBlock>
+                <SkillBlock name = {blocks[1].name} skills = {blocks[1].skills}></SkillBlock> 
+                <SkillBlock name = {blocks[2].name} skills = {blocks[2].skills}></SkillBlock>
+            </div>
         </div>
     );
 }
