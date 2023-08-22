@@ -5,6 +5,7 @@
 #skill-block{
     line-height: 10px;
     width: 20vw;
+    padding-left: 24px;
 }
 
 .skill-block:nth-child(1){

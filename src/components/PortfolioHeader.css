@@ -1,14 +1,12 @@
 #title{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-size: 1.8vw;
 }
 
 #description{
     font-family: monospace;
     color: black;
-    font-size: 1.1vw;
-    width: 530px;
+    font-size: 15px;
     line-height: 25px;
 }
 #header{
