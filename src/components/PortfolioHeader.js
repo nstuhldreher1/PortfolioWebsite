@@ -1,4 +1,5 @@
 import './PortfolioHeader.css';
+import headshot from './headshot.png';
 //import Orbit from './Orbit.js';
 function PortfolioHeader(){
     return(
@@ -8,6 +9,7 @@ function PortfolioHeader(){
                 <p id="description"> Welcome to my portfolio website. I'm a computer science student with a passion for developing software applications. This portfolio is a showcase of my journey through the world of computer science, highlighting my projects, skills, and accomplishments.  </p>
             </div>
             <div id = "orbit">
+                <img src= {headshot} alt="headshot" id="headshot"></img>
             </div>
         </section>
     );
