@@ -46,6 +46,9 @@ function Projects(){
     
     return(
         <div id="projects">
+            <div id="header-container">
+                <h1 id="project-header">Here's What I've Done.</h1>
+            </div>
             <div id="projectList">
                 {
                     projectList.map(project => {
