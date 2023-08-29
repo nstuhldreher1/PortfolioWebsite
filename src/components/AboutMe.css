@@ -47,3 +47,41 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 480px){
+    #aboutMe{
+        width: 100vw;
+        height: 105vh;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 30px;
+        align-items: start;
+        
+    }
+
+    #aboutDescription{
+        color: white;
+        font-size: 17px;
+        line-height: 25px;
+        width: 300px;
+        font-family: monospace;
+    }
+
+    #links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #aboutTitle{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 25px;
+    }
+}

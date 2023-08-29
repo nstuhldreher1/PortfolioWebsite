@@ -39,3 +39,23 @@
     border: 5px solid black;
 
 }
+
+@media (max-width: 480px){
+    #title{
+        font-size: 25px;
+    }
+    #orbit{
+        display: none;
+    }
+    #description{
+        width: 300px;
+        font-size: 17px;
+    }
+
+    #portheader{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 50vh;
+    }
+    
+}
