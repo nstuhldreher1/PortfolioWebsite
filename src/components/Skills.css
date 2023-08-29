@@ -24,7 +24,7 @@
     #skills{
         display: grid;
         grid-template-columns: 1fr;
-        height: 125vh;
+        height: 140vh;
         justify-items: center;
         align-items: center;
         row-gap: 30px;

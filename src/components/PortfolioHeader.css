@@ -55,7 +55,7 @@
     #portheader{
         display: grid;
         grid-template-columns: 1fr;
-        height: 50vh;
+        height: 80vh;
     }
     
 }
