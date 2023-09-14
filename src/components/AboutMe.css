@@ -18,7 +18,7 @@
 
 #aboutMe{
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -51,7 +51,7 @@ body {
 @media (max-width: 480px){
     #aboutMe{
         width: 100vw;
-        height: 130vh;
+        height: 120vh;
         background-color: black;
         display: grid;
         grid-template-columns: 1fr;
