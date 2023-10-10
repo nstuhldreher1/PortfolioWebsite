@@ -7,6 +7,7 @@ import GLEE from './glee.svg';
 import compiler from './compiler.svg';
 import {Link} from 'react-router-dom';
 import rocket from './rocket.svg';
+import carbonleaf from './carbonleaf.svg';
 
 const projectList = [
     {
@@ -38,6 +39,11 @@ const projectList = [
         name: "Acanthis Rocket",
         image: rocket,
         id: 5
+    },
+    {
+        name: "Carbon Tracker GPT",
+        image: carbonleaf,
+        id: 6 
     }
     
 ]
