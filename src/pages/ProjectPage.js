@@ -19,6 +19,9 @@ import phpLogo from '../components/php_24x24.png';
 import portfolio from './portfolio.png';
 import cppLogo from '../components/cpp_24x24.png';
 import cLogo from '../components/c_24x24.png';
+import openaiLogo from './openai-color.svg';
+import calendarLogger from './calendarlogger.png';
+import chatgpt from './chatgpt.png';
 let projects = [
     {
         name: "Game Review",
@@ -290,6 +293,54 @@ let projects = [
                 feature: "Accelerometer",
                 description: "An accelerometer was used to measure the velocity of the rocket throughout the launch",
                 image: null
+            }
+        ]
+    },
+    {
+        name: "Carbon Tracker GPT",
+        introduction: "In a team of 4 people we developed a carbon emissions tracker for Knight Hacks. Knight Hacks is an event held at UCF where you are asked to design and implement a coding project within 36 hours. This was the project my group and I decided to create over 36 hours and very little sleep. It's a carbon tracker where you can put in the make and model of your car and how many miles you've traveled each day of the week. It takes all of this data and computes your carbon emissions from your daily commute. It then uses the OpenAI API to give you insight into your carbon emissions. This includes whether your carbon emissions are high or low relative to the average, and it includes how you can improve your carbon emissions.",
+        link: "https://github.com/OmarAlshafei/CarbonTrackerGPT",
+        technologies:[
+            {
+                tech: "Javascript",
+                image: jsLogo
+            },
+            {
+                tech: "HTML",
+                image: htmlLogo
+            },
+            {
+                tech: "CSS",
+                image: cssLogo
+            },
+            {
+                tech: "React",
+                image: reactLogo
+            },
+            {
+                tech: "ExpressJS",
+                image: expressLogo
+            },
+            {
+                tech:"OpenAI API",
+                image: openaiLogo
+            }
+        ],
+        overview: [
+            {
+                feature: "Calendar Logger",
+                description: "This allows the user to log the amount of miles they drove each day throughout the week.",
+                image: calendarLogger
+            },
+            {
+                feature: "Make and Model",
+                description: "This allows users to put in the make and model of their car. It takes this info and uses the Carbonsutra API to find their car's emission data and calculate it.",
+                image: null
+            },
+            {
+                feature: "ChatGPT Insight and Advice",
+                description: "Once the data is logged it will give the user insight into their carbon emissions, and then it will provide advice.",
+                image: chatgpt
             }
         ]
     }
